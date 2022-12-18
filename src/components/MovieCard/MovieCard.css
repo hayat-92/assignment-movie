@@ -31,20 +31,8 @@
     padding: 1rem;
 }
 
-@media (min-width: 40rem) {
-    .col {
-        width: 50%;
-    }
-}
-
-@media (min-width: 56rem) {
-    .col {
-        width: 33.3333%;
-    }
-}
 img {
     height: auto;
-    max-width: 100%;
     vertical-align: middle;
 }
 
@@ -99,8 +87,9 @@ img {
     object-fit: cover;
     width: 100%;
     border-radius: 12px 12px 0 0;
-    height: 100%;
-    max-width: 100%;
     display: block;
     margin: auto;
+}
+.cards_item{
+    width: 100%;
 }

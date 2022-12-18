@@ -69,20 +69,22 @@ const Movie = () => {
       {openModal && <Modal closeModal={setcurr_Movie} movie={curr_movie} />}
       <div className="container">
         <div className="header">
-          <div className="logo">
-            <img src={imgx} />{" "}
-          </div>
-          <div className="input">
-            <form class="nosubmit">
-              <input
-                class="nosubmit"
-                type="search"
-                placeholder="Search for a movie"
-                onChange={(e) => {
-                  debounceSearch(e);
-                }}
-              />
-            </form>
+          <div className="sub-header">
+            <div className="logo">
+              <img src={imgx} />{" "}
+            </div>
+            <div className="input">
+              <form class="nosubmit">
+                <input
+                  class="nosubmit"
+                  type="search"
+                  placeholder="Search for a movie"
+                  onChange={(e) => {
+                    debounceSearch(e);
+                  }}
+                />
+              </form>
+            </div>
           </div>
         </div>
         <div className="movie-grid">
