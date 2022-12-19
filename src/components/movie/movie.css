@@ -96,7 +96,7 @@ input.nosubmit {
     }
 
     .col{
-        width: 32%;
+        width: 33.33%;
         padding: 0;
     }
     .card_image img {
@@ -114,7 +114,7 @@ input.nosubmit {
         grid-template-columns: repeat(3, 1fr);
     }
     .col{
-        width:30%;
+        width:33.33%;
     }
 
     .card_image img{
