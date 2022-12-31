@@ -20,10 +20,10 @@ Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
 ![movie-1](https://user-images.githubusercontent.com/68597674/210128237-9a23f8cb-f476-4879-99e1-35aa409feca4.png)
 
 # Features
- - On the initial visit to the site, it will show the most recent movies.
- - Allow users to put in a search term and display matches from the movie database in the same grid.
-      - Matches should come from an API call, not filtering prior downloaded results.
- - When a user clicks on one of the cards, open a modal and display more information about the movie.
+ - On the initial visit to the site, it shows the most recent movies.
+ - It Allow users to put in a search term and display matches from the movie database in the same grid.
+      - Matches come from an API call, not filtering prior downloaded results.
+ - When a user clicks on one of the cards, It opens a modal and display more information about the movie.
 
 
 
